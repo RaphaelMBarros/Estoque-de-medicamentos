@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #76BEBE;
+    height: 6rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+#titulo {
+    margin-left: 50px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #CF509C;
+}
+
+#titulo p {
+    margin-top: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#form{
+    width: 35%;
+
+}
+
+form{
+    display: grid;
+    grid-auto-flow: row;
+    width: 80%;
+    margin-left: 35px;
+    
+}
+
+#divTable{
+    width: 55%;
+    
+}
+
+#table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#table th {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #3E3D3D;
+    color: #FFFFFF;
+}
+
+input {
+    width: 100%;
+    height: 34px;
+    
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+
+    background: rgba(255, 255, 255, 0.57);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+label, td {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+button {
+    width: 70%;
+    height: 40px;
+    
+    background: #76BEBE;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    
+
+}
+
+

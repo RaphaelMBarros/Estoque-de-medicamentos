@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Anaheim&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Cadastro<br> de Medicamentos</a>
+        <a href="">Cadastro<br> de Vacinas</a>
+        <a href="">Cadastro<br> de Cosméticos</a>
+    </nav>
+    <header>
+        <img src="image.png">
+        <div id="titulo">
+            <h1>Cadastro de Medicamentos</h1>
+            <p>Farmácia da Gente</p>
+        </div>
+    </header>
+    <section>
+        <div id="form">
+            <form>
+                <label>Nome do Medicamento</label>
+                <input autocomplete="off" id="nome" type="text" required>
+                <label>Quantidade Disponível</label>
+                <input autocomplete="off" id="quantidade" type="text" required>
+                <label>Classe de Medicamento</label>
+                <input autocomplete="off" id="classeMed" type="text" required>
+                <button onclick="addMedicamento()"type="submit">Cadastrar</button>
+
+            </form>
+
+        </div>
+        <div id="divTable">
+            <table id="table" border="solid 1px">
+                <tr>  
+                    <th>ID</th>
+                    <th>Medicamento</th>
+                    <th>Quantidade</th>
+                    <th>Classe de Medicamento</th>
+                    <th>Remover</th>
+                </tr>
+                                
+            </table>
+
+        </div>
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
